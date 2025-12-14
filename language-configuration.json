@@ -22,7 +22,7 @@
   ],
   "folding": {
     "markers": {
-      "start": "^\\s*(cond|while|for)",
+      "start": "^\\s*(cond|while|for|forNodes|forEdges|forIncident|forComponent|forNeighbors)",
       "end": "^\\s*end"
     }
   }
