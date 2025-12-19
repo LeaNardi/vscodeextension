@@ -113,7 +113,7 @@
       "patterns": [
         {
           "name": "entity.name.function.graph.graphsdsl",
-          "match": "\\b(addNode|deleteNode|addEdge|deleteEdge|graphComplement|graphUnion|graphIntersection|getEdges|adjacentNodes|adjacentEdges|esCiclico|esConexo|metricClosure|metricClosurePaths|getConnectedComponents)\\b"
+          "match": "\\b(addNode|deleteNode|addEdge|deleteEdge|graphComplement|graphUnion|graphIntersection|getNodes|getEdges|adjacentNodes|adjacentEdges|esCiclico|esConexo|metricClosure|metricClosurePaths|getConnectedComponents)\\b"
         },
         {
           "name": "entity.name.function.edge.graphsdsl",
@@ -125,11 +125,15 @@
         },
         {
           "name": "entity.name.function.queue.graphsdsl",
-          "match": "\\b(queueLen|enqueue|dequeue|peek|isEmpty|isEmptyQueue)\\b"
+          "match": "\\b(queueLen|enqueue|dequeue|peek|isEmptyQueue)\\b"
         },
         {
           "name": "entity.name.function.unionfind.graphsdsl",
           "match": "\\b(union|find)\\b"
+        },
+        {
+          "name": "entity.name.function.nodemap.graphsdsl",
+          "match": "\\b(getNodeMap|getValue|setValue|getMapKeys)\\b"
         }
       ]
     },
